@@ -1,0 +1,241 @@
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .toppage {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            display: flex;
+        }
+
+        .linha {
+            background-color: aliceblue;
+            width: 100%;
+            flex: 1;
+            height: 45px;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .linha h1 {
+            color: #333;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .foot_page {
+            width: 100%;
+            height: calc(100vh - 60px);
+            background-color: rgb(16, 18, 38);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: aliceblue;
+            align-items: center;
+            justify-content: center;
+            width: 450px;
+            height: 450px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .titulo_filme {
+            /* background-color: #2c5530; */
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .selecione {
+            background-color: #d32f2f;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .tela {
+            background-color: #1976d2;
+            width: 210px;
+            height: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .tela_text {
+            align-items: center;
+            background-color: transparent;
+            color: white;
+            font-weight: bold;
+        }
+
+        .tela_text h4 {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .assentos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+
+
+        .cadeiras{
+            /* background-color: green;
+            width: 300px;
+            height: 150px; */
+            display: flex;
+            justify-items: center;
+        }
+
+        .prim_section{
+            flex:1;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .banco{
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            width: 25px;
+            height: 25px;
+            background-color: rgb(95, 95, 95);
+            margin: 7px;
+            display: flex;
+            border-radius: 3px;
+            color: #ccc;
+            border: #000 solid 1px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            cursor: pointer;
+        }
+
+        .etiqueta{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banco:hover{
+            transform: scale(1.16);
+            background-color: green;
+        }
+
+        .banco.selecionado {
+            background-color: green ;
+            transform: scale(1.16);
+        }
+
+        .banco.ocupado{
+            background-color: red;
+
+        }
+
+
+
+        .foot {
+            background-color: #1976d2;
+            height: 70px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+
+        .foot_text{
+            flex: 2;
+            color: white;
+            height: 50px;
+            display:flex;
+            flex-direction: column;
+        }
+
+        .foot_price{
+            flex: 1;
+            color: white;
+            height: 50px;
+            display:flex;
+            flex-direction: column;
+        }
+        .foot_button button{
+            width: 80px;  /* Largura fixa menor */
+            height: 40px; /* Altura menor */
+            background-color: #1976d2;
+            border-radius: 6px;
+            border: white solid 1.5px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 5px;
+            
+        }
+
+        .foot_button button:hover{
+            background-color: green;
+
+            background-color: #2e7d32;  /* Verde mais escuro */
+            transform: translateY(-2px);  /* Pequeno movimento para cima */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .price_text{
+            flex: 1;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .price_final{
+            flex:1;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .block_text{
+            flex: 1;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chairs{
+            flex:1;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
