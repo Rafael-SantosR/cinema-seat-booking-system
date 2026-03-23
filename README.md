@@ -20,7 +20,7 @@ Este projeto possui integração planejada com:
 A versão online representa apenas o front-end da aplicação.
 
 ## 🌐 Demo
-
+https://rafael-santosr.github.io/cinema-seat-booking-system/
 
 ## 🎯 Objetivo
 Projeto desenvolvido para praticar construção de interfaces, lógica de seleção e integração futura com backend.
