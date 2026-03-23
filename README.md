@@ -20,7 +20,7 @@ Este projeto possui integração planejada com:
 A versão online representa apenas o front-end da aplicação.
 
 ## 🌐 Demo
-(seu link do GitHub Pages aqui)
+
 
 ## 🎯 Objetivo
 Projeto desenvolvido para praticar construção de interfaces, lógica de seleção e integração futura com backend.
